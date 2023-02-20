@@ -10,13 +10,14 @@
  *
  * Return: Always O (Success)
 */
+
 int main(void)
 {
 	int n; digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* my code goes there */
+	/* my code comes there */
 	digit = n % 10; /*gets last digit*/
 
 	if (digit > 5)
