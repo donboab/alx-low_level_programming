@@ -1,13 +1,15 @@
 #include <stdio.h>
+
 /**
- * This is my first
+ * Here is my first main work: - From Entry point
  *
- * main program
- * return 0 
- * */
+ * Description: A C program that prints with puts function
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }
