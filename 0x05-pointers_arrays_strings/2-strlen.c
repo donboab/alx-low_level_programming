@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns the length of a string
- * @s: The string to get the length of input
- * Return: length of @str.
+ * _strlen - Returns the length of a string
+ * @str: The string to get the length of input
+ * Return: The length of @str.
 */
 size_t _strlen(const char *str)
 {
