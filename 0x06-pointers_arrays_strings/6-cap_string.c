@@ -1,5 +1,5 @@
 #include "main'h"
-
+#include <stdio>
 /**
  * cap_string - a function that capitalizes
  *              all words of a string
