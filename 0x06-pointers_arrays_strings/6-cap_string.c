@@ -1,5 +1,5 @@
 #include "main'h"
-#include <stdio>
+
 /**
  * cap_string - a function that capitalizes
  *              all words of a string
@@ -9,7 +9,7 @@
  * Return: @s
 */
 
-char *cap_string(char *s)
+char *cap_string(char *)
 {
 	int i = 0;
 
@@ -40,7 +40,4 @@ char *cap_string(char *s)
 				s[i] -= 32;
 			}
 		}
-		i++;
-	}
-	return (s);
-}
+		i+}
