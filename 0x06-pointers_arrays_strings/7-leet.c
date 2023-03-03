@@ -8,7 +8,7 @@
  * Return: @s
 */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i, c = 0;
 	int sl[] = {97, 101, 111, 116, 108};
@@ -37,4 +37,3 @@ char *leet(char *)
 	}
 	return (s);
 }
-
