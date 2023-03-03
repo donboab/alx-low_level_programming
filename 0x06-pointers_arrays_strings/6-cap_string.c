@@ -1,4 +1,4 @@
-#include "main'h"
+#include "main.h"
 
 /**
  * cap_string - a function that capitalizes
@@ -9,7 +9,7 @@
  * Return: @s
 */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i = 0;
 
@@ -40,4 +40,7 @@ char *cap_string(char *)
 				s[i] -= 32;
 			}
 		}
-		i+}
+		i++;
+	}
+	return (s);
+}
