@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * add - Adds two values
@@ -8,7 +7,7 @@
  * Return:Integer value
  */
 
-int add(int, int)
+int add(int n1, int n2)
 {
-	return (1 + 2);
+	return (n1 + n2);
 }
