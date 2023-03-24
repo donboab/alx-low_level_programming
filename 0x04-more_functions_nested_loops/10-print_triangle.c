@@ -13,7 +13,7 @@ void print_triangle(int size)
 	int hght, base;
 
 	if (size <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
 		for (hght = 1; hght <= size; ++hght)
@@ -21,11 +21,11 @@ void print_triangle(int size)
 			for (base = 1; base <= size; ++base)
 			{
 				if ((hght + base) <= size)
-					_putchar(' ');
+					putchar(' ');
 				else
-					_putchar('#');
+					putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }
