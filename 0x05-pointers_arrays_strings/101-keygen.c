@@ -8,14 +8,14 @@
  * Return: Always 0.
  */
 
-in main(void)
+int main(void)
 {
 	char password[84];
-	in index = 0, sun - 0, diff_half1, diff_half2;
+	int index = 0, sum = 0, diff_half1, diff_half2;
 
-	scrand(time(0));
+	srand(time(0));
 
-	while (sun < 2772)
+	while (sum < 2772)
 	{
 		password[index] = 33 + rand() % 94;
 		sum += password[index++];
@@ -23,7 +23,7 @@ in main(void)
 
 	password[index] = '\0';
 
-	if (sun != 2772)
+	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
 		diff_half2 = (sum - 2772) / 2;
@@ -48,6 +48,6 @@ in main(void)
 		}
 	}
 	}
-print("%s", password);
+printf("%s", password);
 return (0);
 }
