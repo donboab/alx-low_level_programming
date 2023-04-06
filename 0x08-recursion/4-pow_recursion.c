@@ -11,15 +11,16 @@
 
 int _pow_recursion(int x, int y)
 {
+	int e;
+
 	if (y < 0)
 		return (-1);
 	if (y == 0)
 		return (1);
 	if (y % 2 == 0)
 	{
-		int even_value = _pow_recursion(x, y / 2);
-		
-		return ((even_value * even_value))
+		e = _pow_recursion(x, y / 2);
+		return (e * e);
 	}
 	else
 		return ((x * _pow_recursion(x, y - 1)));
